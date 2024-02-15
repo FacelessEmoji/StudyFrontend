@@ -1,0 +1,23 @@
+article{
+    margin: 5%;
+    background-color: #34649c;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+h1, p{
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    /*не указано в задании, но без этого не похоже на скрин и режет глаза*/
+    /*еще с размером заголовка что-то не то хз*/
+}
