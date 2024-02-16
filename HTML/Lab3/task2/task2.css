@@ -1,0 +1,19 @@
+section{
+    width: 250px;
+    max-width: 100%;
+    height: 250px;
+    border: dashed #12c47b;
+}
+
+h1{
+    text-align: center;
+    margin: 20px auto;
+}
+
+p{
+    text-align: center;
+    border: solid 5px #0835ca;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
