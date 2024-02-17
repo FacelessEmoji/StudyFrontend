@@ -1,0 +1,43 @@
+body{
+    background-color: #cccccc;
+}
+
+.gallery {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* перенос на новую строку */
+    justify-content: space-around; /* равное пространство между элементами */
+}
+
+.gallery li {
+    box-sizing: border-box; /* padding и border в ширине элемента */
+    margin: 50px 20px;
+    display: flex; /* flex-container */
+    justify-content: center; /*по горизонтали */
+    align-items: center; /* по вертикали */
+    flex: 0 1 calc(33.333% - 40px); /* Выставляет ширину элемента с учетом отступов */
+/*flex-grow: 0; — элемент не будет расти, чтобы заполнить дополнительное пространство.*/
+/*flex-shrink: 1; — элемент может сжиматься, если не хватает места.*/
+/*flex-basis: calc(33.333% - 100px);
+ — начальная базовая ширина элемента составляет одну треть родительского элемента
+  за вычетом 100 пикселей, что позволяет поместить ровно три элемента
+   в строке с учетом отступов и границ.*/
+}
+
+.gallery img {
+    display: block; /* Убирает внутренние отступы и выравнивает блоки изображений */
+    max-width: 100%;
+    height: auto;
+    border: 0.4rem solid black;
+    background-color: white;
+    padding: 0.4rem;
+}
+
+.vertical {
+    width: 300px;
+    height: 450px;
+}
+
+
