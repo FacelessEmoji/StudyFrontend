@@ -1,0 +1,16 @@
+body{
+    margin-top: 30%;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

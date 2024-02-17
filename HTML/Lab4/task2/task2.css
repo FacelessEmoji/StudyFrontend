@@ -1,0 +1,20 @@
+h2{
+    font-size: 1em;
+    line-height: 1.2;
+    font-family: Georgia, serif;
+    padding-left: 50px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    padding-left: 50px;
+}
+
+section{
+    margin: 10%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+}
