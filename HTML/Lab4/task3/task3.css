@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    background-color: #cccccc;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap; /* перенос на новую строку */
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    margin: 50px 20px;
+    border: 0.4rem solid black;
+    background-color: white;
+    padding: 0.4rem;
+    box-sizing: border-box; /* padding и border в ширине элемента */
+    justify-content: center; /*по горизонтали */
+    align-items: center; /* по вертикали */
+    flex: 0 1 content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
