@@ -1,6 +1,9 @@
 function divisibility(n) {
     let numbers = [10, 7, 6, 3, 2]
     let flag = false;
+    // for (const number of numbers) {
+    //   console.log(number)
+    // }
     numbers.some(function (number) {
         if (n % number === 0) {
             console.log(`Число делится на ${number}`)
