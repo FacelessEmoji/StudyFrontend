@@ -7,7 +7,7 @@ body {
 ul {
     display: flex;
     list-style-type: none;
-    flex-wrap: wrap; /* перенос на новую строку */
+    flex-wrap: nowrap; /* перенос на новую строку */
     justify-content: center;
 }
 
