@@ -1,47 +1,96 @@
 body {
-    background-color: rgb(238, 238, 238);
+    background-color: #eeeeee;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+}
+
+.card img {
+     width: 100%;
+     height: auto;
+     display: block;
+     border-bottom: 2px solid #ccc;
+ }
+
+
+h1{
+    padding-left: 18%;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1224px;
+    width: 90%;
     margin: 0 auto;
-    padding: 20px;
-
-}
-
-.cards-layout {
-    display: grid;
-    flex-wrap: wrap;
-    gap: 10px;
+    padding: 20px 0;
 }
 
 .masonry{
-    /*grid-template-columns: masonry;*/
-    /*grid-template-rows: masonry;*/
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /*photo gallery*/
 }
 
-.card {
-    width: calc(50% - 10px);
+.masonry-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-masonry-layout {
+    width: 100%;
+    max-width: 250px;
+    height: fit-content; /* победа */
+    object-fit: cover;
     background-color: white;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.card img {
+.top-masonry{
+    padding: 20px 20px 0;
+}
+
+.bottom-masonry{
+    padding: 0 20px 0 20px;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /*photo gallery*/
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-flex-layout {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: auto;
-    display: block;
-    border-bottom: 2px solid #ccc;
+    height: 720px;
+    max-width: 250px;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.card-content {
-    padding: 20px;
+.bottom-flex {
+    flex-shrink: 0;
+    padding: 0 20px 0 20px;
+    height: fit-content; /* Фиксированная высота .bottom */
 }
 
-.card-content p {
-    margin: 0;
+.top-flex{
+    flex-grow: 1;
+    padding: 20px 20px 0;
+}
+
+hr{
+    width: 100%;
 }
