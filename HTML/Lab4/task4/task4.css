@@ -1,12 +1,13 @@
 body{
-    margin-top: 30%;
     background-color: #eeeeee;
     display: flex;
-    justify-content: center;
+
 }
 
 
 .container {
+    justify-content: center;
+    margin: 200px 200px;
     background-color: white;
     padding: 20px;
     display: flex;
