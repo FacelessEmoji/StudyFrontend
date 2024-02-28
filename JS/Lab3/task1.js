@@ -16,7 +16,6 @@ function updateList(list) {
     console.log(list)
     console.log(oldSum)
     console.log(newSum)
-    return list, oldSum, newSum
 }
 
 updateList([5, 15, 23, 56, 35])

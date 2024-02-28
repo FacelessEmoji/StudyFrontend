@@ -2,8 +2,8 @@ function getTownsInfo(arrayOfTowns) {
     for (const town of arrayOfTowns) {
         const townObject = {
             town: town.split(" | ")[0],
-            latitude: town.split(" | ")[1],
-            longitude: town.split(" | ")[2]
+            latitude: parseFloat(town.split(" | ")[1]).toFixed(2),
+            longitude: parseFloat(town.split(" | ")[2]).toFixed(2)
         }
         console.log(townObject)
     }

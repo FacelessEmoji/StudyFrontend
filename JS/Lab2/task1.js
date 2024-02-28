@@ -1,7 +1,7 @@
 function sum(n) {
-    let sum = 0; // Используем другое имя для суммы
+    let sum = 0;
     for (const number of String(n).split("").map(Number)) {
-        sum += number; // Используем другое имя для суммы
+        sum += number;
     }
     return sum;
 }
