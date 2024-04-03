@@ -75,6 +75,7 @@ input[type="password"] {
     background-color: black;
     color: white;
     border-radius: 2px;
+    border: none;
     left: -20px;
 }
 

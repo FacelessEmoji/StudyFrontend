@@ -31,6 +31,7 @@ body {
 }
 
 .map-details {
+    position: relative;
     border-radius: 0 0 10px 10px;
     background-color: rgb(255, 255, 255);
     padding: 20px;
@@ -59,7 +60,9 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    margin-left: 360px;
+    position: absolute; /* Устанавливаем позицию абсолютно */
+    bottom: 10px; /* Отступ от нижнего края */
+    right: 10px; /* Отступ от правого края */
     cursor: pointer;
 }
 
@@ -78,9 +81,6 @@ body {
         margin-top: -30px;
     }
 
-    .map-details button {
-        margin-left: auto;
-    }
 }
 
 @media (min-width: 768px) {
@@ -96,10 +96,6 @@ body {
     .map-details {
         width: 500px;
         margin-top: -50px;
-    }
-
-    .map-details button {
-        margin-left: 360px;
     }
 }
 
